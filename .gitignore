@@ -1,0 +1,19 @@
+# Secrets
+.env.local
+.env
+
+# CDK Build Artifacts
+**/cdk/cdk.out/
+**/cdk/node_modules/
+
+# CLI Internals
+**/.cli/*
+!**/.cli/deployed-state.json
+
+# Ephemeral
+.cache/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
