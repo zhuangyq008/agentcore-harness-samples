@@ -1,0 +1,15 @@
+{
+  "name": "MyHarness",
+  "model": {
+    "provider": "bedrock",
+    "modelId": "global.anthropic.claude-sonnet-4-6"
+  },
+  "tools": [
+    {
+      "type": "agentcore_code_interpreter",
+      "name": "code-interpreter"
+    }
+  ],
+  "skills": [],
+  "sessionStoragePath": "/mnt/data/"
+}

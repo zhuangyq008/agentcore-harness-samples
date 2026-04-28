@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.agentcore.aws.dev/v1/agentcore.json",
+  "name": "skillsDemo",
+  "version": 1,
+  "managedBy": "CDK",
+  "tags": {
+    "agentcore:created-by": "agentcore-cli",
+    "agentcore:project-name": "skillsDemo"
+  },
+  "runtimes": [],
+  "memories": [],
+  "credentials": [],
+  "evaluators": [],
+  "onlineEvalConfigs": [],
+  "agentCoreGateways": [],
+  "policyEngines": [],
+  "harnesses": [
+    {
+      "name": "MyHarness",
+      "path": "app/MyHarness"
+    }
+  ]
+}

@@ -7,6 +7,7 @@ A collection of hands-on examples demonstrating how to build, configure, and dep
 | Sample | Description |
 |--------|-------------|
 | [harness-memory](samples/harness-memory/) | Configure a Harness with AgentCore Memory for short-term and long-term conversation persistence |
+| [harness-skills](samples/harness-skills/) | Configure a Harness with Agent Skills for domain-specific knowledge (xlsx, frontend-design, etc.) |
 
 ## Prerequisites
 
