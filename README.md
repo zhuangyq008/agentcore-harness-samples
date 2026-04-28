@@ -8,6 +8,7 @@ A collection of hands-on examples demonstrating how to build, configure, and dep
 |--------|-------------|
 | [harness-memory](samples/harness-memory/) | Configure a Harness with AgentCore Memory for short-term and long-term conversation persistence |
 | [harness-skills](samples/harness-skills/) | Configure a Harness with Agent Skills for domain-specific knowledge (xlsx, frontend-design, etc.) |
+| [harness-filesystem](samples/harness-filesystem/) | Session storage (`sessionStoragePath`) behavior — per-session isolation and cross-session limitations |
 
 ## Prerequisites
 
